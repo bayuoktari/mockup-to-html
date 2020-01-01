@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Amaranth:400,700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FCECD2;
+    font-family: 'Amaranth', sans-serif;
+    overflow-x: hidden;
+}
+.nopad{
+    padding: 0px!Important;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 700;
+    color: #E96270!Important;
+}
+.nav-item a{
+    color: #faa1a6!Important;
+    font-weight: 700;
+    font-size: 20px;
+}
+.nav-item a:hover{
+    color: #E96270!Important;
+}
+.title{
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #E96270;
+    font-size: 55px;    
+}
+.text-content{
+    margin-top: 200px;
+}
+.ice{
+    width: 100%;
+}
+.btn-card{
+    background-color: #E96270;
+    border-radius: 50px;
+    border: none;
+}
+.btn-card:hover{
+    background-color:#faa1a6 ;
+}
+.bg-card{
+    background-color: rgba(255, 255, 255, .25);  
+    backdrop-filter: blur(5px);
+    margin-bottom: 20px;
+    border: none;
+}
+.ownTitle{
+    font-weight: 700;
+    color: #E96270;
+    border-left: 3px solid #E96270;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+.card-desc{
+    color: #faa1a6;
+}
+.wrapper-card{
+    padding: 0px 30px 20px 30px;
+}
+.circle-1{
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    left: 0;
+    top: -40px;
+    z-index: -10;
+    background-color: #F6CED2;
+    border-radius: 0 100% 700% 0;
+}
+.circle-2{
+    position: absolute;
+    right: 0;
+    top: -130px;
+    width: 630px;
+    height: 630px;
+    z-index: -11;
+    background-color: #F6CED2;
+    border-radius: 100% 0 0 900%;
+}
+.radius-100{
+    border-radius: 20px;
+}
+
+
+@media (max-width: 767.98px){
+    .text-content{
+        margin-top: 10px;
+    }
+    .title{
+        font-size: 40px;
+    }
+    .ice{
+        width: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
